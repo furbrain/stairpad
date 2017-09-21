@@ -22,3 +22,12 @@ is recorded; if it increases substantially, then we know that someone is standin
 At the microcontroller we use two pins - one to charge the capacitor, and one to measure the charge and also discharge it.
 Finally we use the microcontroller to communicate on a serial line to register when it senses pressure...
 
+
+ICD2 cables - left to right:
+
+white   Not used
+black   PGC         6
+red     PGD         7
+green   GND         8
+yellow  Vdd         1
+blue    Vpp/MCLR    4
